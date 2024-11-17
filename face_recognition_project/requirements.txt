@@ -1,0 +1,39 @@
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python -m venv venv
+source venv/bin/activate
+
+# Install required packages in the virtual environment
+pip install opencv-python==4.8.0.74
+pip install numpy==1.24.3
+pip install pandas==2.0.3
+pip install streamlit==1.22.0
+pip install scikit-learn==1.2.2
+pip install Pillow==9.5.0
+pip install python-dateutil==2.8.2
+pip install pytz==2023.3
+pip install six==1.16.0
+pip install tornado==6.3.2
+pip install typing_extensions==4.5.0
+pip install tzdata==2023.3
+pip install tzlocal==5.0.1
+pip install validators==0.20.0
+pip install watchdog==3.0.0
+pip install zipp==3.15.0
+
+# To create requirements.txt
+pip freeze > requirements.txt
+
+# To install from requirements.txt
+pip install -r requirements.txt
+
+# Run the application
+python add_faces.py  # First, register faces
+python test.py      # Run attendance system
+streamlit run app.py  # Run dashboard
+
+# To deactivate the virtual environment when done
+deactivate
