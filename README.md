@@ -1,27 +1,5 @@
 # facerecog
 
-I'll create a comprehensive requirements.txt file along with installation instructions to make this attendance system work anywhere.
-
-```text
-# requirements.txt
-opencv-python==4.8.0.74
-numpy==1.24.3
-pandas==2.0.3
-streamlit==1.22.0
-scikit-learn==1.2.2
-Pillow==9.5.0
-python-dateutil==2.8.2
-pytz==2023.3
-six==1.16.0
-tornado==6.3.2
-typing_extensions==4.5.0
-tzdata==2023.3
-tzlocal==5.0.1
-validators==0.20.0
-watchdog==3.0.0
-zipp==3.15.0
-
-```
 
 Here's a complete setup guide to make the attendance system work anywhere:
 
