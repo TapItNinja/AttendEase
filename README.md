@@ -12,7 +12,7 @@
   [![Year](https://img.shields.io/badge/Year_Project-7th-purple.svg)](https://github.com/TapItNinja/AttendEase)
 </div>
 
-## 🎓 7th Year Academic Project
+## 🎓 7th Semester Academic Project
 
 AttendEase is an innovative facial recognition attendance system developed as a final year academic project. This system reimagines traditional attendance tracking in educational institutions by leveraging computer vision and machine learning technologies to create an automated, contactless solution.
 
